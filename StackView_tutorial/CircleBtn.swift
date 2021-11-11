@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-// @IBDesignable: 인터페이스 빌더에서 디자인으로 확인 가능하께끔
+// @IBDesignable: 인터페이스 빌더에서 디자인으로 확인 가능하께끔 ---> m1에서는 error가 나옴
 //@IBDesignable
 //class CircleBtn: UIButton {
 //
