@@ -13,6 +13,7 @@
 		E1BC7460273CE1BF001E2051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BC745E273CE1BF001E2051 /* Main.storyboard */; };
 		E1BC7462273CE1C1001E2051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BC7461273CE1C1001E2051 /* Assets.xcassets */; };
 		E1BC7465273CE1C1001E2051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1BC7463273CE1C1001E2051 /* LaunchScreen.storyboard */; };
+		E1BC746D273CE49F001E2051 /* CircleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BC746C273CE49F001E2051 /* CircleBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E1BC7461273CE1C1001E2051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1BC7464273CE1C1001E2051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1BC7466273CE1C1001E2051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BC746C273CE49F001E2051 /* CircleBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E1BC7457273CE1BF001E2051 /* StackView_tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				E1BC746C273CE49F001E2051 /* CircleBtn.swift */,
 				E1BC7458273CE1BF001E2051 /* AppDelegate.swift */,
 				E1BC745A273CE1BF001E2051 /* SceneDelegate.swift */,
 				E1BC745C273CE1BF001E2051 /* ViewController.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1BC746D273CE49F001E2051 /* CircleBtn.swift in Sources */,
 				E1BC745D273CE1BF001E2051 /* ViewController.swift in Sources */,
 				E1BC7459273CE1BF001E2051 /* AppDelegate.swift in Sources */,
 				E1BC745B273CE1BF001E2051 /* SceneDelegate.swift in Sources */,
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H84YUCF7F5;
 				INFOPLIST_FILE = StackView_tutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H84YUCF7F5;
 				INFOPLIST_FILE = StackView_tutorial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
